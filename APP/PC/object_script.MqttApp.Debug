@@ -1,0 +1,11 @@
+debug/main.o
+debug/widget.o
+debug/node1.o
+debug/setting.o
+debug/smtp.o
+debug/logs.o
+debug/qrc_rsc.o
+debug/moc_widget.o
+debug/moc_node1.o
+debug/moc_setting.o
+debug/moc_logs.o

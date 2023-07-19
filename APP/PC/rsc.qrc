@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/black.png</file>
+        <file>images/ChengGuo.png</file>
+        <file>images/Gery.png</file>
+        <file>images/LightBlue.png</file>
+        <file>images/LightGreen.png</file>
+        <file>images/LightOrange.png</file>
+        <file>images/LightPurple.png</file>
+        <file>images/Long.webp</file>
+        <file>images/Orange.png</file>
+        <file>images/Pink.png</file>
+        <file>images/R-C.jfif</file>
+        <file>images/Red.png</file>
+        <file>images/Setting.png</file>
+        <file>images/white.jpg</file>
+        <file>images/white1.jfif</file>
+        <file>images/Blue.png</file>
+        <file>images/Green.png</file>
+        <file>images/yellow.png</file>
+        <file>images/purple.png</file>
+        <file>images/Grey .png</file>
+        <file>images/Logs.png</file>
+    </qresource>
+</RCC>

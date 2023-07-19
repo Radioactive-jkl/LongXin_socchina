@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Node1</class>
+ <widget class="QWidget" name="Node1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>404</width>
+    <height>536</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>节点详情</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/images/Long.webp</normaloff>:/images/Long.webp</iconset>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>49</x>
+     <y>60</y>
+     <width>291</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="Timelable">
+      <property name="text">
+       <string>时间</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="TimeEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="Locationlabel">
+      <property name="text">
+       <string>地点</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="LocationEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="TemHumiDe">
+      <property name="text">
+       <string>温湿度传感器型号</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="TemHumiEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="LightDe">
+      <property name="text">
+       <string>光强计型号</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="LightEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="SmokeDe">
+      <property name="text">
+       <string>烟雾传感器型号</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="SmokeEdit"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,11 @@
+release/main.o
+release/widget.o
+release/node1.o
+release/setting.o
+release/smtp.o
+release/logs.o
+release/qrc_rsc.o
+release/moc_widget.o
+release/moc_node1.o
+release/moc_setting.o
+release/moc_logs.o

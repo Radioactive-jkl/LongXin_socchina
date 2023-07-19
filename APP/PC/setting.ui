@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Setting</class>
+ <widget class="QWidget" name="Setting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>设置</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="rsc.qrc">
+    <normaloff>:/images/Long.webp</normaloff>:/images/Long.webp</iconset>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>311</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="Portlabel">
+      <property name="text">
+       <string>Port</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="PortEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="Passlabel">
+      <property name="text">
+       <string>Password</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="PassEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="Userlabel">
+      <property name="text">
+       <string>Username</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="UserEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="Clientlabel">
+      <property name="text">
+       <string>Client</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="ClientEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="Hostlabel">
+      <property name="text">
+       <string>HostName</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="HostEdit"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="Topiclabel">
+      <property name="text">
+       <string>Topic</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="TopicEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="SureButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>510</y>
+     <width>111</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="rsc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
