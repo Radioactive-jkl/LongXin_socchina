@@ -1,11 +1,54 @@
-# LongXin_socchina
-Our code for socchina: LongXin Competition.
-
+# IoT Warehouse Monitoring System
+Radioactive *`V1.0`*
 ```
-Author: Radioactive-jkl
 Time  :2023/7/19
 ```
+<h3 align="center">LongXin socchina</h3>
 
+---
+
+#### Contents
+
+* [Background](#background)
+* [Highlights](#highlights)
+
+
+## Background
+
+* 放养摆烂比赛[*`全国大学生嵌入式芯片与系统设计竞赛/芯片应用赛道/龙芯赛道`*](http://www.socchina.net/)
+
+
+##### Files
+```
+APP
+  ├── Android
+  |    └── 和下面PC是同一套代码
+  └── PC
+       ├── images
+      ... (Qt codes)
+
+ESP32
+  ├── node1
+ ... (代码几乎相同)
+  ├── node4
+  |    └── node4.ino
+  ├── PubSubClient.zip
+  ├── aliyun_mqtt.zip
+  └── README_Load_lib.md
+
+LongXinPI
+  ├── paho
+  |    └── mqtt库
+  ├── sysfs_pin.py
+  ├── i2c.py
+  ├── graph.py
+  ├── app.py
+  ├── main.py
+  └── requirements.txt
+```
+
+
+## Highlights
 
 ### APP
 ```
