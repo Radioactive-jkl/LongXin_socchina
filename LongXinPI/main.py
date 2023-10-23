@@ -19,10 +19,10 @@ x = 0
 
 # NETWORK----MQTT
 PORT=1883
-HOST=r"iot-06z00itmv0vajzw.mqtt.iothub.aliyuncs.com"
-DEV_ID = r"jk3pz9zX1pF.longxinpi|securemode=2,signmethod=hmacsha256,timestamp=1688816652077|" 
-PRO_ID = r"longxinpi&jk3pz9zX1pF" 
-AUTH_INFO = r"48f9c2f9519dcfd69489f27ba00fc0ff3be48954dafe518df8627d6f08606c8b"
+HOST=r"iot-xxxxxxxxxxx.mqtt.iothub.aliyuncs.com"
+DEV_ID = r"xxxxxxxxxxx.longxinpi|securemode=2,signmethod=hmacsha256,timestamp=xxxxxxxxxxxx|" 
+PRO_ID = r"longxinpi&xxxxxxxxxxxx" 
+AUTH_INFO = r"xxxxxxxxxxxxxxxxxxx"
 
 # The callback for when the client receives a CONNACK response from the server.
 def on_connect(client, userdata, flags, rc):
