@@ -220,10 +220,10 @@ class LongxinApp(tk.Tk):
                 self.new_window.geometry("385x385")
                 self.label = tk.Label(
                     self.new_window, 
-                    text="HOST:\n" + "iot-06z00itmv0vajzw.\nmqtt.iothub.aliyuncs.com" + "\n" 
+                    text="HOST:\n" + "iot-xxxxxxxxxxx.\nmqtt.iothub.aliyuncs.com" + "\n" 
                     + "\nPORT: 1883" + "\n" 
-                    + "DEV_ID:\njk3pz9zX1pF.longxinpi|securemode=2,\nsignmethod=hmacsha256,\ntimestamp=1688816652077|\n" 
-                    + "PRO_ID:\nlongxinpi&jk3pz9zX1pF\n",
+                    + "DEV_ID:\nxxxxxxxxxxx.longxinpi|securemode=2,\nsignmethod=hmacsha256,\ntimestamp=xxxxxxxxxxxx|\n" 
+                    + "PRO_ID:\nlongxinpi&xxxxxxxxxx\n",
                     anchor='w'
                     )
                 self.label.grid()
