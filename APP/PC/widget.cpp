@@ -16,11 +16,11 @@ Widget::Widget(QWidget *parent) :
 
     //正式用例
      client->setPort(1883);
-     client->setUsername("clientAPP&jk3pz9zX1pF");
-     client->setPassword("a5987bc089316bead4e1d0e071eed0166d995e487974047403c70b2af35f1bc8");
-     client->setClientId("jk3pz9zX1pF.clientAPP|securemode=2,signmethod=hmacsha256,timestamp=1688816224104|");
-     client->setHostname("jk3pz9zX1pF.iot-as-mqtt.cn-shanghai.aliyuncs.com");
-     QString TopicName="/sys/jk3pz9zX1pF/clientAPP/thing/service/property/set";
+     client->setUsername("clientAPP&xxxxxx");
+     client->setPassword("xxxxxxxxxxxxxxxx");
+     client->setClientId("xxxxxxxxxxxxxxxx.clientAPP|securemode=2,signmethod=hmacsha256,timestamp=xxxxxxxxxx|");
+     client->setHostname("xxxxxxxxxxxxxxxx.iot-as-mqtt.cn-shanghai.aliyuncs.com");
+     QString TopicName="/sys/xxxxxxxxxxxxx/clientAPP/thing/service/property/set";
      client->subscribe(TopicName);
 
 
