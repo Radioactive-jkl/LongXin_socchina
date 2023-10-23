@@ -15,11 +15,11 @@
  
 /* 连接阿里云服务器信息          */ 
 //以下信息需要自己修改
-#define WIFI_SSID        "OPPO_Reno8_5G"//替换自己的WIFI
-#define WIFI_PASSWD      "15172272767"//替换自己的WIFI
-#define PRODUCT_KEY      "jk3pz9zX1pF" //替换自己的PRODUCT_KEY
-#define DEVICE_NAME      "node1" //替换自己的DEVICE_NAME
-#define DEVICE_SECRET    "c2dc00fc6f95adabd7b5cdbd6ae06d58"//替换自己的DEVICE_SECRET
+#define WIFI_SSID        "xxxxxxxxxxx" //替换自己的WIFI
+#define WIFI_PASSWD      "xxxxxxxxxxx" //替换自己的WIFI
+#define PRODUCT_KEY      "xxxxxxxxxxx" //替换自己的PRODUCT_KEY
+#define DEVICE_NAME      "node1"       //替换自己的DEVICE_NAME
+#define DEVICE_SECRET    "xxxxxxxxxxx" //替换自己的DEVICE_SECRET
  //以下不需修改
 #define DEV_VERSION       "S-TH-WIFI-v1.0-20190220"        //固件版本信息
 #define ALINK_BODY_FORMAT         "{\"id\":123,\"params\":%s,%s}"
