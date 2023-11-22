@@ -12,7 +12,7 @@ Time  :2023/7/19
 #### Contents
 
 * [Background](#background)
-* [Highlights](#highlights)
+* [Details](#details)
 
 
 ## Background
@@ -51,7 +51,7 @@ LongXinPI
 ```
 
 
-## Highlights
+## Details
 
 ### APP
 ```
